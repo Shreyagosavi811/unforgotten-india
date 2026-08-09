@@ -4,7 +4,7 @@ import { Navbar } from '../components/layout/Navbar';
 import { Footer } from '../components/layout/Footer';
 import { ALL_STORIES } from '../data/stories/index';
 import { REGIONS_DATA } from '../data/regions';
-import type { RegionalCategory, ContentClassification } from '../types/domain';
+import type { RegionalCategory } from '../types/domain';
 
 const CATEGORIES: { id: RegionalCategory; label: string }[] = [
   { id: 'PEOPLE', label: 'People' },
